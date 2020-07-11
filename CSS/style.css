@@ -10,15 +10,11 @@ body {
 }
 
 .heading {
-    color: rgb(50, 50, 124);
+    color: rgb(60, 60, 201);
     text-align: center;
     padding-top: 56px;
 }
 
-/* #Time_Table_Heading{
-    font-size: xx-large;
-        padding-top: 38px;
-} */
 #Time_Table_Heading {
     font-size: xx-large;
     padding-top: 38px;
