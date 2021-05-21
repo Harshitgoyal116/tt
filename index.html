@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharti Vidyapeeth Deemed University</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS (BootStrap: href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            margin-top: 20px;
+            text-align: center;
+            color: royalblue;
+        }
+        section{
+            width: 50%;
+        }
+        .section-1{
+            float: left;
+        }
+        .section-2{
+            float: right;
+        }
+        .timetable{
+            /* border: 2px dotted red; */
+            width: 500px;
+            margin: 50px;
+            text-align: center;
+        }
+        
+        .timetable .logo img{
+            border: 1px solid black;
+            border-radius: 23px;
+            padding: 0;
+            width: 400px;
+            height: 300px;
+            margin: 50px;
+        }
+        .exam{
+            /* border: 2px dotted red; */
+            width: 500px;
+            margin: 50px;
+            text-align: center;
+        }
+        
+        .exam .logo img{
+            border: 1px solid black;
+            border-radius: 23px;
+            padding: 0;
+            width: 400px;
+            height: 300px;
+            margin: 50px;
+        }
+        @media only screen and (max-width: 900px){
+            section{
+                width: 100%;
+               
+            }
+            .exam .logo img,
+            .timetable .logo img{
+            border: 1px solid black;
+            border-radius: 23px;
+            padding: 0;
+            width: 200px;
+            height: 200px;
+           
+        }
+            /* h1{
+                font-size: 35px;
+                text-align: center;
+                margin-left: 60%;
+            }  */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bharti Vidyapeeth Deemed University</h1>
+    <!-- for time table -->
+    <section class="section-1">
+        <div class="timetable">
+            <div class="logo">
+                <img src="img/timetable.PNG" alt="Time table">
+            </div>
+            <h3><a href="/timetable.html"><button type="button" class="btn btn-primary">Show Time-Table</button></a></h3>
+        </div>
+    </section>
+    <!-- For Exams -->
+    <section class="section-2">
+        <div class="exam">
+            <div class="logo">
+                <img src="img/exam.PNG" alt="Exam">
+            </div>
+            <h3><a href="/exam.html"><button type="button" class="btn btn-primary">Show Exam List</button></a></h3>
+        </div>
+    </section>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2021 Copyright:
+            <a class="text-dark" href="https://bvimrtt.tk/">bvimrtt.tk</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
+</body>
+</html>
